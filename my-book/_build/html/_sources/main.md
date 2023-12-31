@@ -7,16 +7,13 @@ The idea of making it digestible is to show how it would work in real life, from
 Let's get into it, and welcome to **Aggresively Digestible**.
 
 ## BibTeX Citation
-Any references to these articles
+Any references can be done through:
+
 ```
 @book{greeno,
-    Author     =  {Green, Olle},
-    Date-Added =  {2023-12-31},
-    Title      =  {Aggressively Digestible},
-    Year       =  {2023}}
-```
-
-Check out the content pages bundled with this sample book to see more.
-
-```{tableofcontents}
+      Author     =  {Green, Olle},
+      Date-Added =  {2023-12-31},
+      Title      =  {Aggressively Digestible},
+      Year       =  {2023}
+      }
 ```
