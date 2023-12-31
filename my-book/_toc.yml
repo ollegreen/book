@@ -2,9 +2,13 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: CH-1
+root: main
+parts:
+  - caption: Core of Neural Networks
+    chapters:
+      - file: 01-core-areas/neural-network-fundamentals/introduction
+      sections:
+        - file: 01-core-areas/neural-network-fundamentals/input_layer
+  - Research Papers
+    chapters:
+      - file: 02-research-papers/research_papers.md
