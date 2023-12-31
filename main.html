@@ -65,7 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'main';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="test what this does" href="01-core-areas/neural-network-fundamentals/introduction.html" />
+    <link rel="next" title="Introduction" href="01-core-areas/neural-network-fundamentals/introduction.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -169,8 +169,10 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Core of Neural Networks</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="01-core-areas/neural-network-fundamentals/introduction.html">test what this does</a></li>
-
+<li class="toctree-l1 has-children"><a class="reference internal" href="01-core-areas/neural-network-fundamentals/introduction.html">Introduction</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="01-core-areas/neural-network-fundamentals/input_layer.html">Input Layers</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Research Papers</span></p>
 <ul class="nav bd-sidenav">
@@ -379,9 +381,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibtex-citation">BibTeX Citation</a><ul class="nav section-nav flex-column">
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibtex-citation">BibTeX Citation</a></li>
 </ul>
             </nav>
         </div>
@@ -400,38 +400,20 @@ document.write(`
 <p>Let’s get into it, and welcome to <strong>Aggresively Digestible</strong>.</p>
 <section id="bibtex-citation">
 <h2>BibTeX Citation<a class="headerlink" href="#bibtex-citation" title="Permalink to this heading">#</a></h2>
-<p>Any references to these articles</p>
+<p>Any references can be done through:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@book</span><span class="p">{</span><span class="n">greeno</span><span class="p">,</span>
-    <span class="n">Author</span>     <span class="o">=</span>  <span class="p">{</span><span class="n">Green</span><span class="p">,</span> <span class="n">Olle</span><span class="p">},</span>
-    <span class="n">Date</span><span class="o">-</span><span class="n">Added</span> <span class="o">=</span>  <span class="p">{</span><span class="mi">2023</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">31</span><span class="p">},</span>
-    <span class="n">Title</span>      <span class="o">=</span>  <span class="p">{</span><span class="n">Aggressively</span> <span class="n">Digestible</span><span class="p">},</span>
-    <span class="n">Year</span>       <span class="o">=</span>  <span class="p">{</span><span class="mi">2023</span><span class="p">}}</span>
+      <span class="n">Author</span>     <span class="o">=</span>  <span class="p">{</span><span class="n">Green</span><span class="p">,</span> <span class="n">Olle</span><span class="p">},</span>
+      <span class="n">Date</span><span class="o">-</span><span class="n">Added</span> <span class="o">=</span>  <span class="p">{</span><span class="mi">2023</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">31</span><span class="p">},</span>
+      <span class="n">Title</span>      <span class="o">=</span>  <span class="p">{</span><span class="n">Aggressively</span> <span class="n">Digestible</span><span class="p">},</span>
+      <span class="n">Year</span>       <span class="o">=</span>  <span class="p">{</span><span class="mi">2023</span><span class="p">}</span>
+      <span class="p">}</span>
 </pre></div>
 </div>
-<p>Check out the content pages bundled with this sample book to see more.</p>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Core of Neural Networks</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="01-core-areas/neural-network-fundamentals/introduction.html">test what this does</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01-core-areas/neural-network-fundamentals/introduction.html#here-s-my-sample-title">Here’s my sample title</a></li>
-</ul>
-</div>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Research Papers</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html">Research Papers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#template">Template:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#paper">Paper:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#paper-zephyr-direct-distillation-of-lm-alignment">Paper: “ZEPHYR: DIRECT DISTILLATION OF LM ALIGNMENT”</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#paper-oxford-semantic-uncertainty-linguistic-invariances-for-uncertainty-estimation-in-natural-language-generation">Paper: Oxford — “Semantic Uncertainty; Linguistic Invariances for Uncertainty Estimation in Natural Language Generation”</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#paper-oxford-clam-selective-clarification-for-ambiguous-questions">Paper: Oxford — “CLAM: Selective Clarification for Ambiguous Questions”</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#paper-react-synergizing-reasoning-and-acting-in-language-models">Paper: ReAct - Synergizing Reasoning and Acting in Language Models</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#paper-chain-of-thought-cot">Paper: Chain of Thought (CoT)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#id15">Template:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02-research-papers/research_papers.html#id16">Paper:</a></li>
-</ul>
-</div>
 </section>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -469,7 +451,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">test what this does</p>
+        <p class="prev-next-title">Introduction</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -488,9 +470,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibtex-citation">BibTeX Citation</a><ul class="nav section-nav flex-column">
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibtex-citation">BibTeX Citation</a></li>
 </ul>
   </nav></div>
 
