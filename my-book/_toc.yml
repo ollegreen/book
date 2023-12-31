@@ -1,5 +1,4 @@
 # Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
 root: main
@@ -7,8 +6,8 @@ parts:
   - caption: Core of Neural Networks
     chapters:
       - file: 01-core-areas/neural-network-fundamentals/introduction
-      sections:
-        - file: 01-core-areas/neural-network-fundamentals/input_layer
-  - Research Papers
+        sections:
+          - file: 01-core-areas/neural-network-fundamentals/input_layer
+  - caption: Research Papers
     chapters:
-      - file: 02-research-papers/research_papers.md
+      - file: 02-research-papers/research_papers
