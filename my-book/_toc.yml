@@ -5,9 +5,11 @@ root: main
 parts:
   - caption: Core of Neural Networks
     chapters:
-      - file: 01-core-areas/neural-network-fundamentals/introduction
+      - file: 01-core-nn/neural-network-fundamentals/core_introduction
+      - file: 01-core-nn/neural-network-fundamentals/core_concepts
         sections:
-          - file: 01-core-areas/neural-network-fundamentals/input_layer
-  - caption: Research Papers
+          - file: 01-core-nn/neural-network-fundamentals/input_layer
+  - caption: Models
     chapters:
-      - file: 02-research-papers/research_papers
+      - file: 02-nn-model-architectures/model_introduction
+      - file: 02-nn-model-architectures/mlp
