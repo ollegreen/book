@@ -1,3 +1,5 @@
+# Core Concepts
+
 To prime ourself before going into each part more deeply, I'm now going to tell you the core components of neural networks that you will not know. But I want you to write down what you think it is. Doesn't matter if it's correct, just give it a try. After you've written it down, you can click to show the answer.
 
 * Input Layer:
