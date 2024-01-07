@@ -8,6 +8,7 @@ parts:
       - file: 01-core-nn/neural-network-fundamentals/core_introduction
       - file: 01-core-nn/neural-network-fundamentals/core_concepts
         sections:
+          - file: 01-core-nn/neural-network-fundamentals/tensor
           - file: 01-core-nn/neural-network-fundamentals/input_layer
   - caption: Models
     chapters:
